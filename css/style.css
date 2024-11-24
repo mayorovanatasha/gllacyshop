@@ -261,7 +261,7 @@ ul {
 }
 
 .navigation__dropdown:hover .dropdown__content {
-  display: block;
+  display: none;
 }
 
 .navigation-user {
