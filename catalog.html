@@ -136,9 +136,38 @@
             <li class="navigation-user__item">
               <a class="navigation-user__link navigation-user__button navigation-user__button--login" href="#">Вход</a>
             </li>
-            <li class="navigation-user__item">
+            <li class="navigation-user__item navigation-user__dropdown">
               <a class="navigation-user__link navigation-user__button navigation-user__button--cart" href="#">2
                 товара</a>
+              <div class="dropdown__wrapper">
+                <div class="dropdown__content">
+                  <h3 class="dropdown__title">Корзина</h3>
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">
+                      <img src="images/product-image_1.png" width="46" height="46" alt="">
+                      <header class="dropdown__item__header">
+                        <h6>Малинка</h6>
+                        <p>1 кг х 310 ₽</p>
+                      </header>
+                      <p class="dropdown__item__price">310 ₽</p>
+                      <button class="item__button" type="submit"><span class="visually-hidden">Удалить</span></button>
+                    </li>
+                    <li class="dropdown__item">
+                      <img src="images/product-image_4.png" width="46" height="46" alt="">
+                      <header class="dropdown__item__header">
+                        <h6>Бабл-гам</h6>
+                        <p>1,5 кг х 320 ₽</p>
+                      </header>
+                      <p class="dropdown__item__price">480 ₽</p>
+                      <button class="item__button" type="submit"><span class="visually-hidden">Удалить</span></button>
+                    </li>
+                  </ul>
+                  <footer class="dropdown__content__footer">
+                    <button class="button button--bright" type="submit">Оформить заказ</button>
+                    <p>Итого: 790 ₽</p>
+                  </footer>
+                </div>
+              </div>
             </li>
           </ul>
         </nav>
